@@ -2,6 +2,8 @@
 
 ##About what i would like to do:
 
+
+
 This is my brand new project to show how i can use basic frontend technology.
 
 I will copy layout from image demo.png to web page.
@@ -14,6 +16,8 @@ I will copy layout from image demo.png to web page.
 1. Markdown
 * How to write beautiful readme.md?
 ** https://blog.bitsrc.io/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991  
+* About Markdown
+** https://guides.github.com/features/mastering-markdown/
 
 ** https://cheatography.com/lucbpz/cheat-sheets/the-ultimate-markdown/
 2. HTML
