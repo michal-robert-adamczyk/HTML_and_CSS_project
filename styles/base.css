@@ -2,3 +2,33 @@
     width: 100%;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   }
+
+  .nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 76%;
+    max-width: 1550px;
+  }
+  .nav__anchor {
+    text-decoration: none;
+    color: white;
+  }
+  .nav__item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 100px;
+    float: left;
+  }
+  .nav__list {
+    padding-right: 1%;
+    padding-top: 1%;
+  list-style: none;
+    display: flex;
+    align-content: space-between;
+  }
+  .nav__logo {
+    padding-top: 1.5%;
+  }
+  
