@@ -1,57 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400,700,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300i,400,700,900&display=swap");
 
 .features {
     color: white;
     background: black;
     padding-bottom: 8%;
-  }
-  .features__container {
+}
+.features__container {
     display: flex;
     justify-content: center;
     margin: auto;
     width: 76%;
     max-width: 1550px;
-  }
-  .features__header {
+}
+.features__header {
     padding: 3% 0;
     text-align: center;
     font-weight: 400;
     margin: auto;
     width: 76%;
     max-width: 1550px;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: "Montserrat", sans-serif;
     font-size: 38px;
     font-weight: 300;
-  }
-  .features__section {
+}
+.features__section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 22%;
     margin: 1%;
-  }
-  .featuresSection__imageContainer{
+}
+.featuresSection__imageContainer {
     margin-top: 17%;
     width: 100px;
     height: 100px;
     background: white;
     border-radius: 50%;
-  
-  }
-  .featuresSection__image{
+}
+.featuresSection__image {
     width: 30px;
     margin: 35px;
-  }
-  .featuresSection__description{
+}
+.featuresSection__description {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;;
-  
-  }
-  .featuresSection__header{
-    font-family: 'Montserrat', sans-serif;;
-  }
-  
+    font-family: "Montserrat", sans-serif;
+}
+.featuresSection__header {
+    font-family: "Montserrat", sans-serif;
+}
 
 .header {
     width: 100%;
@@ -116,47 +112,43 @@
 
 .info {
     display: flex;
-  }
-  .info__description {
+}
+.info__description {
     width: 32vw;
     padding-right: 16%;
     padding-top: 4%;
     padding-left: 4%;
-  }
-  .info__description--header{
+}
+.info__description--header {
     padding-top: 2%;
     text-align: center;
-  font-family:  'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  }
-  .info__description--description{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.info__description--description {
     padding-top: 2%;
     text-align: left;
-  font-family:  'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 20px;  
-  }
-  .info__image {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.info__image {
     width: 100%;
-  }
-  .info__imageContainer {
+}
+.info__imageContainer {
     width: 50vw;
     padding: 4%;
-  }
-  
-  
-  
-  .logosContainer {
+}
+
+.logosContainer {
     display: flex;
     justify-content: space-around;
-  }
-  .logos {
+}
+.logos {
     padding: 2% 0 2% 0;
     width: 45%;
-  }
-
-
+}
 
 .nav {
     margin: auto;
@@ -187,87 +179,142 @@
     padding-top: 1.5%;
 }
 
-
-
 .pricing {
     background: #f8f9f9;
     padding-bottom: 8%;
-  
-  }
-  .pricing__header {
+}
+.pricing__header {
     padding-top: 3%;
     padding-bottom: 3%;
     margin: auto;
     width: 76%;
     max-width: 1550px;
-  }
-  
-  .pricing__header-h2{
+}
+
+.pricing__header-h2 {
     text-align: center;
-    font-family:  'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 40px;
-  }
-  .pricing__header-h3{
+}
+.pricing__header-h3 {
     text-align: center;
-    font-family:  'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 20px;
-  }
-  
-  .pricing__subsection {
-  margin: auto;
+}
+
+.pricing__subsection {
+    margin: auto;
     max-width: 1550px;
-    width: 76%;  
+    width: 76%;
     display: flex;
     justify-content: center;
-  }
-  .pricing__subsectionItem {
+}
+.pricing__subsectionItem {
     padding: 0 1% 0 1%;
     width: 28%;
     height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .pricing__subsectionItem:hover{
-    box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.48);
-  }
-  .pricingSubsectionItem__title{
+}
+.pricing__subsectionItem:hover {
+    box-shadow: 0px 0px 28px 3px rgba(0, 0, 0, 0.48);
+}
+.pricingSubsectionItem__title {
     position: relative;
     padding-top: 18%;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-  }
-  .pricingSubsectionItem__price{
+}
+.pricingSubsectionItem__price {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 55px;
-  }
-  .pricingSubsectionItem__subtitle{
+}
+.pricingSubsectionItem__subtitle {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-  }
-  .pricingSubsectionItem__description{
+}
+.pricingSubsectionItem__description {
     max-width: 50%;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 16px;
-  }
-  .pricingSubsectionItem__button{
+}
+.pricingSubsectionItem__button {
     position: absolute;
-    background-color:#0abceb;
-    border: solid 3px ;
-      border-radius:8px;
-      display:inline-block;
-      color:#ffffff;
-      font-family: 'Montserrat', sans-serif;
-      font-size:16px;
-      padding:1% 3%;
-    text-decoration:none;
+    background-color: #0abceb;
+    border: solid 3px;
+    border-radius: 8px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 1% 3%;
+    text-decoration: none;
     margin-top: 23%;
-  }
+}
+
+.team {
+    background: #ffffff;
+}
+.team__header {
+    text-align: center;
+    margin: auto;
+    width: 76%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 4%;
+}
+.team__container {
+    padding-top: 5%;
+    max-width: 1550px;
+    margin: auto;
+    width: 76%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.team__itemFunction {
+    padding-top: 22px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.team__itemImage {
+    width: 152px;
+    height: 152px;
+    margin: auto;
+}
+.team__item {
+    padding: 0% 6% 0% 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.team__itemDescription {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.team__itemName {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.team__itemSocialMedia {
+    margin: auto;
+}
+.team__itemSocialMedia--a {
+}
