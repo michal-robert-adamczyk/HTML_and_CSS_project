@@ -6,7 +6,7 @@
 
 This is my brand new project to show how i can use basic frontend technology.
 
-![Demo](assets\demo.png)
+![Demo](/assets/demo.png)
 
 
 I will copy layout from image demo.png to web page.
