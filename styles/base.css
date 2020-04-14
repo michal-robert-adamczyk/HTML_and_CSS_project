@@ -114,6 +114,50 @@
     font-size: 40px;
 }
 
+.info {
+    display: flex;
+  }
+  .info__description {
+    width: 32vw;
+    padding-right: 16%;
+    padding-top: 4%;
+    padding-left: 4%;
+  }
+  .info__description--header{
+    padding-top: 2%;
+    text-align: center;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  }
+  .info__description--description{
+    padding-top: 2%;
+    text-align: left;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;  
+  }
+  .info__image {
+    width: 100%;
+  }
+  .info__imageContainer {
+    width: 50vw;
+    padding: 4%;
+  }
+  
+  
+  
+  .logosContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logos {
+    padding: 2% 0 2% 0;
+    width: 45%;
+  }
+
+
+
 .nav {
     margin: auto;
     display: flex;
