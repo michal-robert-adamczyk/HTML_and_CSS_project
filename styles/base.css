@@ -49,6 +49,13 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
+
+.footer {
+    width: 100%;
+  }
+  
+
 .header {
     width: 100%;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
