@@ -1,34 +1,91 @@
+
+
 .header {
     width: 100%;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-  }
+}
 
-  .nav {
+.header {
+    width: 100%;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding-bottom: 12%;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1550px;
+}
+.header__section {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 76%;
+    max-width: 1550px;
+}
+.header__sectionDescription {
+    color: white;
+    padding-top: 4%;
+}
+.header__sectionImage {
+    width: 72%;
+    padding: 3% 2% 10% 2%;
+
+    background: white;
+    margin-top: 1%;
+    margin-right: 50%;
+    margin-left: 16%;
+    transform: rotate(-6deg);
+    border-radius: 3.5%;
+}
+.header-description__button {
+    background-color: #25f18b;
+    border-radius: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+.header-description__information {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 250px;
+}
+.header-description__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.nav {
     margin: auto;
     display: flex;
     justify-content: space-between;
     height: 150px;
     width: 76%;
     max-width: 1550px;
-  }
-  .nav__anchor {
+}
+.nav__anchor {
     text-decoration: none;
     color: white;
-  }
-  .nav__item {
-    font-family: 'Montserrat', sans-serif;
+}
+.nav__item {
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     width: 100px;
     float: left;
-  }
-  .nav__list {
+}
+.nav__list {
     padding-right: 1%;
     padding-top: 1%;
-  list-style: none;
+    list-style: none;
     display: flex;
     align-content: space-between;
-  }
-  .nav__logo {
+}
+.nav__logo {
     padding-top: 1.5%;
-  }
-  
+}
